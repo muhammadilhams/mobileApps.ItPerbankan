@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:layout_gravity="left"
+            >
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Balance"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="0dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/textView_show_balance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Rp. 200.000,00"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                />
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:elevation="10dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

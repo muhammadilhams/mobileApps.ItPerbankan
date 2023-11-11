@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AplikasiPerbankan" parent="Theme.Material3.Light">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.AplikasiPerbankan" parent="Base.Theme.AplikasiPerbankan" />
+</resources>

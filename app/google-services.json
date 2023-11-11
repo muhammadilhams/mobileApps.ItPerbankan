@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "49660923498",
+    "project_id": "aplikasiperbankan",
+    "storage_bucket": "aplikasiperbankan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49660923498:android:20801cd4337f9c74388413",
+        "android_client_info": {
+          "package_name": "com.example.aplikasiperbankan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIpJBRSYXt8qSkGms4qvdaxuFa4APG5IA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
